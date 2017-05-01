@@ -41,7 +41,7 @@ public class EngineInformation {
 		return 0;
 	}
 
-	public int ThreeEngineLocation() {// JT
+	public int ThreeEngineLocation() {// JTsr
 		String Message = ("\n Are The Three Engines On The Nose And The Wings?");
 		if (yesno(Message) == true)
 			return 0;

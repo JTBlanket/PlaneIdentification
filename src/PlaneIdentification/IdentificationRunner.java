@@ -4,6 +4,7 @@ public class IdentificationRunner {
 	public static void main(String[] args){
 		IdentificationRunner myPlanes = new IdentificationRunner();
 		myPlanes.createAirplaneData();
+		System.out.println("myPlanes Instantiated correctly");
 		
 	
 		EngineInformation EI = new EngineInformation();
